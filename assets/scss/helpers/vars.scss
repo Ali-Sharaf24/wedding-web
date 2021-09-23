@@ -1,0 +1,25 @@
+$colorone:#f6f6f6;
+$colortwo: #F7F8F8;
+$colorthree:#999999;
+$colorfour: #fca6b1;
+$colorfive: #F5CBC9;
+$colorsix:#cbcbcb;
+@mixin spn {
+    color: #999;
+    display: inline-block;
+    text-align: center;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: all 0.4s linear;
+}
+
+@mixin btn {
+    display: inline-flex;
+    color: #fff;
+    background-color: $colorfive;
+    border: 2px solid $colorfive;
+    font-size: 20px;
+    font-weight: 500;
+    transition: all 0.4s linear;
+}
